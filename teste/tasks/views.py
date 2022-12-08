@@ -8,7 +8,7 @@ def hello(request):
 
 def taskList(request):
     tasks = Task.objects.all()
-    return render(request, 'tasks/list.html')
+    return render(request, 'tasks/list.html', {'tasks': tasks})
 
 
 def seuNome(request, nome):

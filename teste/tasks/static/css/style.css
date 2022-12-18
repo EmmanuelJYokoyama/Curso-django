@@ -78,6 +78,16 @@
     right: 26px;
 }
 
+main{
+    text-align: center;
+    background-color: #ddd;
+    min-height: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.377);
+    margin-bottom: 5vh;
+    font-size: 1em;
+}
+
 .search-div{
     padding: 0px;
     margin-top: 15px;
@@ -113,4 +123,21 @@ ul.messages{
 
 ul.messages li{
     list-style: none;
+}
+
+/*--------------PAGES--------------*/
+
+.pagination{
+    margin-bottom: 20px;        
+}
+
+.step-links{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+.step-links .current{
+    margin-left:5px ;
+    margin-right: 5px;
 }

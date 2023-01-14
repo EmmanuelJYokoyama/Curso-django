@@ -1,0 +1,12 @@
+{% extends 'template-base.html' %}
+
+{% block title %} ToDo {% endblock %}
+
+
+{% block content%}
+    <div class="offset-1 col-10 list-div">
+        <h1>{{task.title}}</h1>
+        <p>{{task.desc}}</p>
+    </div>
+
+{% endblock %}
